@@ -1,5 +1,5 @@
 const nome = 'Matheus';
-const sobreNome = 'santos';
+const sobreNome = 'Santos';
 let idade = 25;
 let peso = 84;
 let alturaEmM = 1.7;
@@ -10,4 +10,4 @@ IMC = peso/(alturaEmM * alturaEmM)
 
 console.log(nome,sobreNome,'Nasceu em ',anoNascimento,'tem',idade,'anos, pesa',peso,'Kg, tem',alturaEmM,'de altura e seu IMC é de ',IMC);
 
-console.log(`${nome},${sobreNome} Nasceu em  ${anoNascimento} tem idade anos pesa ${peso} Kg, tem ${alturaEmM} de altura e seu IMC é de  ${IMC}`);
+console.log(`${nome} ${sobreNome} Nasceu em  ${anoNascimento} tem idade anos pesa ${peso} Kg, tem ${alturaEmM} de altura e seu IMC é de  ${IMC}`);
